@@ -9,6 +9,7 @@ node_modules/
 go.sum
 .hugo_build.lock
 .Rproj.user
+.DS_Store
 
 # templates
 post/getting-started/
