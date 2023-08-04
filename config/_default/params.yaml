@@ -6,10 +6,10 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
-  theme_night: minimal
-  font: minimal
-  font_size: L
+  theme_day: Forest
+  theme_night: Forest
+  font: Classic
+  font_size: M
 
 # SEO
 
@@ -18,13 +18,13 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    description: ''
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
     google_tag_manager: ''
-    microsoft_clarity: ''  
+    microsoft_clarity: ''
   verification:
     google: ''
     baidu: ''
@@ -33,12 +33,23 @@ marketing:
 
 header:
   navbar:
+    # Choose a navigation block
+    block: navbar
+    # Display the navigation bar?
     enable: true
+    # Align menu links: left (l), center (c), or right (r)
     align: l
+    # Display your site title or `assets/media/logo*` image in the nav bar?
     show_logo: true
+    # Show a language chooser (if you have translated your site content)?
+    show_translations: false
+    # If `show_translations` is enabled, do you wish to display the current language name?
     show_language: false
+    # Let the user override the default light/dark mode of your theme?
     show_day_night: true
+    # Let the user search from the nav bar?
     show_search: true
+    # Attempt to automatically highlight the active menu link? Can be disabled for complex sites.
     highlight_active_link: true
 
 # Site footer
@@ -66,7 +77,7 @@ features:
     theme_light: github-light
     theme_dark: dracula
   math:
-    enable: false
+    enable: true
   privacy_pack:
     enable: false
   repository:
@@ -96,7 +107,7 @@ features:
       index_name: ''
       show_logo: false
   map:
-    provider: ''
+    provider: 'mapnik'
     api_key: ''
     zoom: 15
 

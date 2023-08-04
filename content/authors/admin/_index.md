@@ -1,47 +1,45 @@
 ---
 # Display name
-title: Alice Wu 吳恩達
+title: Jacob Englert
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
+first_name: Jacob
+last_name: Englert
 
-# Status emoji
-status:
-  icon: ☕️
-
-# Is this the primary user of the site?
+highlight_name: true
 superuser: true
+role: PhD Candidate in Biostatistics
+email: "jacob.englert@emory.edu"
 
-# Role/position/tagline
-role: Professor of Artificial Intelligence
+# Short bio (displayed in user profile at end of posts)
+bio: My interests include statistical inference, data science, and data visualization.
+
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
-
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+  - name: Emory University
+    url: https://www.sph.emory.edu/
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Statistical Inference
+  - Data Visualization
+  - Tree-based Methods
+  - Bayesian Statistics
+  - Statistics Education
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD in Biostatistics
+      institution: Emory University
+      year: Current
+    - course: MS in Biostatistics
+      institution: Emory University
+      year: 2023
+    - course: BS in Mathematics and Statistics
+      institution: Northern Kentucky University
+      year: 2019
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -50,22 +48,13 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: mailto:jacob.englert@emory.edu
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/jacobenglert
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/jacobenglert/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -80,5 +69,20 @@ email: ''
 highlight_name: true
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hello there! I am currently pursuing a PhD in Biostatistcs at [Department of Biostatistics and Bioinformatics](https://sph.emory.edu/departments/bios/index.html), part of the [Rollins School of Public Health](https://www.sph.emory.edu) at Emory University. I received my undergraduate from the [Department of Mathematics and Statistics](https://www.nku.edu/academics/artsci/about/departments/math.html) at [Northern Kentucky University](https://www.nku.edu).
+
+Prior to coming to Emory I interned and worked full-time as a data analyst for [Medpace](https://www.medpace.com), a full-service CRO headquartered in Cincinnati, Ohio.
 {style="text-align: justify;"}
+
+
+<!--
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/GeorgeCushen
+    label: Follow me on Twitter
+    display:
+      header: true
+  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: fas
+    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+-->
