@@ -24,7 +24,7 @@ organizations:
 interests:
   - Statistical Inference
   - Data Visualization
-  - Tree-based Methods
+  - Tree-Based Methods
   - Bayesian Statistics
   - Statistics Education
 
@@ -69,7 +69,7 @@ email: ''
 highlight_name: true
 ---
 
-Hello there! I am currently pursuing a PhD in Biostatistcs at [Department of Biostatistics and Bioinformatics](https://sph.emory.edu/departments/bios/index.html), part of the [Rollins School of Public Health](https://www.sph.emory.edu) at Emory University. I received my undergraduate from the [Department of Mathematics and Statistics](https://www.nku.edu/academics/artsci/about/departments/math.html) at [Northern Kentucky University](https://www.nku.edu).
+Hello there! I am currently pursuing a PhD in Biostatistics at [Department of Biostatistics and Bioinformatics](https://sph.emory.edu/departments/bios/index.html), part of the [Rollins School of Public Health](https://www.sph.emory.edu) at Emory University. I received my undergraduate from the [Department of Mathematics and Statistics](https://www.nku.edu/academics/artsci/about/departments/math.html) at [Northern Kentucky University](https://www.nku.edu).
 
 Prior to coming to Emory I interned and worked full-time as a data analyst for [Medpace](https://www.medpace.com), a full-service CRO headquartered in Cincinnati, Ohio.
 {style="text-align: justify;"}

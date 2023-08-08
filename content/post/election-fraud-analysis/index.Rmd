@@ -3,8 +3,6 @@ title: "2020 US Presidential Election Fraud Analysis"
 author: "Jacob Englert"
 date: 2020-11-17
 output: md_document
-# categories: ["R"]
-# tags: ["R Markdown", "plot", "regression"]
 ---
 
 ```{r setup, include=FALSE}
@@ -82,7 +80,7 @@ benford <- data.frame(digit = 1:9) %>%
 
 Let's begin by visualizing the actual frequencies for each party in every election:
 
-```{r}
+```{r, eval = FALSE}
 country_digits %>%
   mutate(obs = n / sum(n),
          .by = c(year, candidate, party)) %>%
@@ -92,10 +90,13 @@ country_digits %>%
   scale_x_continuous(breaks = 1:9) +
   facet_wrap(~year) +
   theme_bw() +
-  labs(title = "Do U.S. Presidential Elections Follow Benford's Law?",
-       x = 'Leading Digit in Total Votes',
+  labs(x = 'Leading Digit in Total Votes',
        y = "% County Share (Expected vs. Observed)")
 ```
+```{r label = benford, eval = TRUE, echo = FALSE, out.width="90%", fig.cap='Distribution of Vote Totals', fig.align='center'}
+knitr::include_graphics('Figures/benford_compare.png')
+```
+
 
 In general, it would appear that the distribution of leading digits in nationwide county votes has closely followed Benford's law in all elections since 2020 for all parties. But we should still formally test this. A common approach to comparing two distributions is a chi-squared goodness-of-fit test. This test compares the expected counts of each group to the observed counts, and provides a single $\chi^2_{k-1}$ test statistic. The $k-1$ degrees of freedom comes from the fact that given the total count, once the counts for $k-1$ of the $k$ groups are known, the last count must be determined. Further, we can calculate a p-value. Here I do this for all party-year-state combinations.
 
@@ -155,8 +156,8 @@ us_states %>%
   theme(axis.ticks = element_blank(),
         axis.text = element_blank())
 ```
-```{r, eval = TRUE, echo = FALSE, out.width="90%", fig.cap='State Map'}
-knitr::include_graphics('Figures/new_state_map.png')
+```{r, eval = TRUE, echo = FALSE, out.width="90%", fig.cap='State Map', fig.align='center'}
+knitr::include_graphics('Figures/state_map.png')
 ```
 
 On the state-level, we see that the majority of states have little evidence of departure from Benford's law. On state in particular that stands out is Iowa, which was flagged with some degree of evidence in 14 out of 18 maps! It is also worth pointing out that all candidates had at least one state with questionable vote distributions.
@@ -180,8 +181,8 @@ us %>%
         axis.text = element_blank())
 ```
 
-```{r, eval = TRUE, echo = FALSE, out.width="90%", fig.cap='Country Map'}
-knitr::include_graphics('Figures/new_country_map.png')
+```{r, eval = TRUE, echo = FALSE, out.width="90%", fig.cap='Country Map', fig.align='center'}
+knitr::include_graphics('Figures/country_map.png')
 ```
 
 On a nationwide scale, the most suspicious vote tallies occurred for republican Al Gore in 2000, democrat John Kerry in 2004, and the other parties in 2004. In both 2000 and 2020, vote tallies for all candidates had some level of suspicion.
