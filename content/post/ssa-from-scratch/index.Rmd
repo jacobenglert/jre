@@ -94,7 +94,7 @@ knitr::include_graphics('Figures/scree.png')
 Here we see that the first singular value is much larger than the rest. This value typically corresponds to the overarching long-term trend (when one is present). After that, the singular values tend to come in pairs. These pairs can be thought of a matched pair of sine and cosine oscillations, which together make up one component of the seasonality. More on this later.
 
 Further, $\mathbf{A}$ can now be expressed as a sum of rank deficient matrices.
-$$\mathbf{A} = \mathbf{A}_1 + \mathbf{A}_2 + \ldots + \mathbf{A}_L$$.
+$$\mathbf{A} = \mathbf{A}_1 + \mathbf{A}_2 + \ldots + \mathbf{A}_L$$
 
 We will store these matrices in a list called `X`.
 ```{r, eval = FALSE}
@@ -155,7 +155,7 @@ groups <- numeric(L)
 groups[trend_id] <- 1; groups[season_id] <- 2; groups[noise_id] <- 3
 ```
 
-For the reconstruction step, we apply diagonal averaging within each of $\mathbf{A}_\mathcal{T}$, $\mathbf{A}_\mathcal{S}$, and $\mathbf{A}_\mathcal{R}$ to return a reconstructed one-dimensional time-series for each group. Simply put, we average the components of the matrix across ${i, j}:i+j=C-1$ for some constant $C$. After this, we are left with three time-series $Y_N^{(k)}, k \in \left\{\mathcal{T}, \mathcal{S}, \mathcal{R} \right\}$.
+For the reconstruction step, we apply diagonal averaging within each of $\mathbf{A}_\mathcal{T}$, $\mathbf{A}_\mathcal{S}$, and $\mathbf{A}_\mathcal{R}$ to return a reconstructed one-dimensional time-series for each group. Simply put, we average the components of the matrix across $\left\{i, j :i+j=C-1 \right\}$ for some constant $C$. After this, we are left with three time-series $Y_N^{(k)}, k \in \left\{\mathcal{T}, \mathcal{S}, \mathcal{R} \right\}$.
 
 ```{r, eval = FALSE}
 # Diagonal average Hankel 

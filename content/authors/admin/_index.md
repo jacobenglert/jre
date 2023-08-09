@@ -33,7 +33,7 @@ education:
   courses:
     - course: PhD in Biostatistics
       institution: Emory University
-      year: Current
+      year: 2025
     - course: MS in Biostatistics
       institution: Emory University
       year: 2023
@@ -69,9 +69,9 @@ email: ''
 highlight_name: true
 ---
 
-Hello there! I am currently pursuing a PhD in Biostatistics at [Department of Biostatistics and Bioinformatics](https://sph.emory.edu/departments/bios/index.html), part of the [Rollins School of Public Health](https://www.sph.emory.edu) at Emory University. I received my undergraduate from the [Department of Mathematics and Statistics](https://www.nku.edu/academics/artsci/about/departments/math.html) at [Northern Kentucky University](https://www.nku.edu).
+Hello there! I'm a statistician and data scientist currently pursuing a PhD in Biostatistics at [Department of Biostatistics and Bioinformatics](https://sph.emory.edu/departments/bios/index.html), part of the [Rollins School of Public Health](https://www.sph.emory.edu) at Emory University. I enjoy applying and developing statistical tools to help solve problems from different domains including medicine, public health, finance and sports. I am also passionate about helping students from all backgrounds learn statistics.
 
-Prior to coming to Emory I interned and worked full-time as a data analyst for [Medpace](https://www.medpace.com), a full-service CRO headquartered in Cincinnati, Ohio.
+Prior to coming to Emory, I received my undergraduate from the [Department of Mathematics and Statistics](https://www.nku.edu/academics/artsci/about/departments/math.html) at [Northern Kentucky University](https://www.nku.edu). I have previously worked as a statistical consultant at the [Burkardt Consulting Center](https://www.nku.edu/academics/artsci/about/departments/math/about/centers/bcc.html) and as a data analyst in the biostatistics department at [Medpace](https://www.medpace.com), a full-service CRO headquartered in Cincinnati, Ohio.
 {style="text-align: justify;"}
 
 
