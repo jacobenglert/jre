@@ -33,12 +33,19 @@ sections:
           date_start: "2020-08-15"
           date_end: ""
           description:
-        - title: Data Standard Analyst
+        - title: Data Analyst
           company: Medpace
           company_url: "https://www.medpace.com"
           company_logo: medpace
           date_start: "2018-01-01"
           date_end: "2020-07-01"
+          description: 
+        - title: Statistical Consultant
+          company: Burkardt Consulting Center
+          company_url: "https://www.nku.edu/academics/artsci/about/departments/math/about/centers/bcc.html"
+          company_logo: 
+          date_start: "2018-08-01"
+          date_end: "2019-05-01"
           description: 
     design:
       columns: "2"
