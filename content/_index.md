@@ -43,9 +43,16 @@ sections:
         - title: Statistical Consultant
           company: Burkardt Consulting Center
           company_url: "https://www.nku.edu/academics/artsci/about/departments/math/about/centers/bcc.html"
-          company_logo: 
+          company_logo: nku
           date_start: "2018-08-01"
           date_end: "2019-05-01"
+          description: 
+        - title: Student Workforce Trainee
+          company: Federal Bureau of Investigation
+          company_url: "https://www.fbi.gov"
+          company_logo: fbi
+          date_start: "2017-06-10"
+          date_end: "2017-12-31"
           description: 
     design:
       columns: "2"
