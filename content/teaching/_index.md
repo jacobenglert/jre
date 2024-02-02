@@ -23,8 +23,10 @@ slides: ""
 
 # Teaching
 
-I have served as a teaching assistant for the following courses:
+I have served as a teaching assistant/lab instructor for the following courses:
   - Emory University
+    - QTM 100: Introduction to Statistical Inference (Spring 2024)
+    - EPI 590R: R Bootcamp for Epidemiology (Fall 2023)
     - BIOS 509: Applied Linear Models (Spring 2022, Spring 2023)
     - BIOS 525: Longitudinal and Multi-Level Data Analysis (Fall 2022)
     - INFO 530: Geographic Information Systems (GIS) (Spring 2021)

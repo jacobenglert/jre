@@ -60,7 +60,7 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: uploads/Jaceob_Englert_Academic_CV.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -69,7 +69,7 @@ email: ''
 highlight_name: true
 ---
 
-Hello there! I'm a statistician and data scientist currently pursuing a PhD in Biostatistics at [Department of Biostatistics and Bioinformatics](https://sph.emory.edu/departments/bios/index.html), part of the [Rollins School of Public Health](https://www.sph.emory.edu) at Emory University. I enjoy applying and developing statistical tools to help solve problems from different domains including medicine, public health, finance and sports. I am also passionate about helping students from all backgrounds learn statistics.
+Hello there! I'm a statistician and data scientist currently pursuing a PhD in Biostatistics at [Department of Biostatistics and Bioinformatics](https://sph.emory.edu/departments/bios/index.html), part of the [Rollins School of Public Health](https://www.sph.emory.edu) at Emory University. My research involves incorporating Bayesian nonparametric models into statistical methods commonly used in the analysis of environmental health. I am also passionate about helping students from all backgrounds learn statistics.
 
 Prior to coming to Emory, I received my undergraduate from the [Department of Mathematics and Statistics](https://www.nku.edu/academics/artsci/about/departments/math.html) at [Northern Kentucky University](https://www.nku.edu). I have previously worked as a statistical consultant at the [Burkardt Consulting Center](https://www.nku.edu/academics/artsci/about/departments/math/about/centers/bcc.html) and as a data analyst in the biostatistics department at [Medpace](https://www.medpace.com), a full-service CRO headquartered in Cincinnati, Ohio.
 {style="text-align: justify;"}
