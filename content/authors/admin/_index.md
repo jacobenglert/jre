@@ -60,7 +60,7 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/Jaceob_Englert_Academic_CV.pdf
+    link: uploads/Jacob_Englert_Academic_CV.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
