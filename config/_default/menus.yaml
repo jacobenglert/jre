@@ -20,7 +20,7 @@ main:
   #   url: '#featured'
   #   weight: 50
   - name: CV
-    url: uploads/resume.pdf
+    url: uploads/Jacob_Englert_Academic_CV.pdf
     weight: 50
   - name: Contact
     url: '#contact'
