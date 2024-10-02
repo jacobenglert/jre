@@ -17,12 +17,20 @@ sections:
       title: Experience
       date_format: Jan 2006
       items:
+        - title: Data Scientist Intern
+          company: The Lubrizol Corporation
+          company_url: "https://www.lubrizol.com"
+          company_logo: lz
+          location: Atlanta, GA (Remote)
+          date_start: "2024-05-01"
+          date_end: "2024-08-03"
+          description:
         - title: Research Assistant
           company: Rollins School of Public Health
           company_url: "https://sph.emory.edu"
           company_logo: rsph
           location: Atlanta, GA
-          date_start: "2020-05-01"
+          date_start: "2021-05-01"
           date_end: ""
           description:
         - title: Teaching Assistant
